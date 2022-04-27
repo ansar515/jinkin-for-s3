@@ -1,8 +1,8 @@
 provider "aws" {
   region     = "us-east-2"
-  access_key = "sdfdffs"
-  secret_key = "dfdfdffd"
+
 }
+
 
 #1 -this will create a S3 bucket in AWS
 resource "aws_s3_bucket" "terraform_state_s3" {
